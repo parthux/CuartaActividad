@@ -8,6 +8,7 @@ html{
 body{
     font-family: Arial,Helvetica,sans-serif;
     color: #333;
+    padding: 0 0.5rem;
 }
 .header{
     border-bottom: 1px solid #d5d1d1;
@@ -86,7 +87,7 @@ body{
     margin-top: 3rem;
 }
 .section__header{
-    width: 100vw;
+    width: 100%;
 }
 .section__title{
     margin-bottom: 1rem;
