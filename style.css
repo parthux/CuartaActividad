@@ -159,14 +159,14 @@ body{
 }
 /*-------------------main-end-----------------*/
 /*-------------------footer-------------------*/
-footer{
+.footer{
     width: 100%;
 }
 .header-footer{
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin-bottom: 10rem;
+    margin-bottom: 0.5rem;
     padding-right: 1rem;
     padding-left: 1rem;
 }
@@ -198,5 +198,25 @@ footer{
     width: 7.5rem;
     height: 2.1875rem;
     border-radius: 0.25rem;
+}
+.footer-medium{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.footer-medium__row{
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+.footer-medium__link{
+    text-decoration: none;
+}
+.footer-medium__logo{
+    width: 2.25rem;
+    height: 1.95rem;
+}
+.footer-medium__text{
+    display: inherit;
+    padding: 0 1rem;
 }
 /*-------------------footer-end---------------*/
